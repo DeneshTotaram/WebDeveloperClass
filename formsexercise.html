@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Forms Exercise</title>
+    </head>
+    <body>
+        
+        <h1>Register</h1>
+        <form action="">
+            <div>
+                <label for="firstName">First Name: </label>
+                <input type="text" id="firstName" placeholder="John" required>
+                <label for="lastName">Last Name: </label>
+                <input type="text" id="lastName" placeholder="Smith">
+            </div>
+
+            <div>
+                <label for="male">Male </label>
+                <input type="radio" id="male" value="male" name="sex">
+                <label for="female">Female</label>
+                <input type="radio" id="female" value="female" name="sex">
+                <label for="other">Other</label>
+                <input type="radio" id="other" value="other" name="sex">
+            </div>
+
+            <div>
+                <label for="email">Email: </label>
+                <input type="email" id="email" name="email" placeholder="your email" required>
+                <label for="password" >Password: </label>
+                <input type="password" id="password" name="password" placeholder="your password" required>
+            </div>
+
+            <div>
+                <label for="birthday">Birthday</label>
+                <select name="month" id="month">
+                    <option value="month">month</option>
+                </select>
+                <select name="day" id="day">
+                    <option value="day">day</option>
+                </select>
+                <select name="year" id="year">
+                    <option value="year">year</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="terms">I agree to the terms and conditions </label>
+                <input type="checkbox" id="terms">
+            </div>
+            
+            <input type="submit">
+
+         </form>
+    </body>
+</html>

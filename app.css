@@ -1,0 +1,21 @@
+h1 {
+     color: red;
+    /*border-color: purple;
+    border-width: 5px;
+    border-style: solid; */
+
+    /* can use the other syntax too */
+    border: 5px solid purple;
+}
+
+li {
+    color: green;
+}
+
+h4 {
+    background: rgb(255, 100, 80);
+}
+
+body {
+    background: pink;
+}
